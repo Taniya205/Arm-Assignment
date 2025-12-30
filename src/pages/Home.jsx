@@ -20,17 +20,17 @@ export default function Home() {
   return (
     <div className="home">
 
-      {/* ================= HERO SECTION ================= */}
+      
       <Hero
         title="Welcome to Taniya Enterprise"
         subtitle="Your trusted partner for crane services and equipment solutions."
         bgImage={Aboutimg} // add your hero image here
       />
 
-      {/* ================= HERO CAROUSEL ================= */}
+      
       <section className="hero-carousel">
         <Carousel>
-          {/* Slide 1 */}
+      
           <Carousel.Item>
             <img
               src={crane9}
@@ -43,7 +43,7 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          {/* Slide 2 */}
+          
           <Carousel.Item>
             <img
               src={crane1}
@@ -56,7 +56,7 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          {/* Slide 3 */}
+          
           <Carousel.Item>
             <img
               src={crane7}
@@ -69,7 +69,7 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          {/* Slide 4 */}
+          
           <Carousel.Item>
             <img
               src={lubricant3}
@@ -84,7 +84,7 @@ export default function Home() {
         </Carousel>
       </section>
 
-      {/* ================= WHY US ================= */}
+      
       <section className="why-us">
         <h2>Why Choose Taniya Enterprise</h2>
         <p className="section-text">
@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= SERVICES PREVIEW ================= */}
+     
       <section className="services-preview">
         <h2>Our Crane Hiring & Support Services</h2>
 
@@ -145,7 +145,7 @@ export default function Home() {
         <a href="/services" className="link-btn">View Full Services →</a>
       </section>  
 
-      {/* ================= GALLERY ================= */}
+      
       <section className="gallery">
         <h2>Our Crane Operations & Equipment</h2>
 
@@ -159,7 +159,7 @@ export default function Home() {
         <a href="/services" className="link-btn">View More Cranes →</a>
       </section>
 
-      {/* ================= CTA ================= */}
+      
       <section className="cta-strip">
         <h2>Need Professional Crane Hiring?</h2>
         <p>Contact Taniya Enterprise today for safe and reliable crane rental services.</p>

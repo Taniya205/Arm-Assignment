@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import Hero from "../components/Hero"; // import the Hero component
+import Hero from "../components/Hero"; 
 
 import hireImg from "../assets/images/crane-hiring.jpeg";
 import repairImg from "../assets/images/crane-repair.jpeg";
@@ -11,14 +11,14 @@ const About = () => {
   return (
     <div className="about-page">
 
-      {/* ================= HERO SECTION ================= */}
+
       <Hero
         title="About Taniya Enterprise"
         subtitle="Learn more about our journey, expertise, and commitment to quality."
         bgImage={Aboutimg} // replace with your hero image
       />
 
-      {/* ================= ABOUT TEXT ================= */}
+      
       <div className="about-text">
         <h2>About Taniya Enterprise</h2>
 
@@ -37,7 +37,7 @@ const About = () => {
         </p>
       </div>
 
-      {/* ================= HIGHLIGHTS WITH IMAGES ================= */}
+
       <div className="service-section">
 
         <div className="service-box">

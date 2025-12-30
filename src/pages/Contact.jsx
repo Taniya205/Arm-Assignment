@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
 import Hero from "../components/Hero";
- // import Hero component
+
 import servicesimg from "../assets/images/services-hero.jpeg";
 
 function Contact() {
@@ -41,14 +41,14 @@ function Contact() {
   return (
     <div className="contact-wrapper">
 
-      {/* ================= HERO SECTION ================= */}
+      
       <Hero
         title="Contact Taniya Enterprise"
         subtitle="Have a project in mind? Reach out to us and we’ll assist you."
-        bgImage={servicesimg} // replace with your hero image
+        bgImage={servicesimg}
       />
 
-      {/* ================= CONTACT FORM ================= */}
+      
       <div className="contact-card">
         <h2>Get Your Project Started</h2>
         <p>Share your requirements — we’ll get back to you soon.</p>

@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero"; // import Hero component
+import Hero from "../components/Hero"; 
 
 import crane7 from "../assets/images/crane7.jpeg";
 import crane2 from "../assets/images/crane2.jpeg";
@@ -17,14 +17,14 @@ const Services = () => {
   return (
     <div className="services-page">
 
-      {/* ================= HERO SECTION ================= */}
+     
       <Hero
         title="Our Services"
         subtitle="Professional crane hiring, repair, and equipment solutions for every project."
         bgImage={servicesimg} 
       />
 
-      {/* -------- Services Cards Section -------- */}
+      
       <section className="services-section">
         <h1 className="section-title">Our Services</h1>
 
@@ -55,7 +55,7 @@ const Services = () => {
         </div>
       </section>
 
-      {/* -------- Crane Fleet Gallery -------- */}
+      
       <section className="crane-gallery">
         <h2>Our Crane Fleet</h2>
 
