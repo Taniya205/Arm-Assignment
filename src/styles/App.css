@@ -1,0 +1,150 @@
+
+
+.home,
+.about-page,
+.services-page,
+.contact-page {
+  background: #F9FAFB;  
+  color: #111827;
+  padding-top: 20px;
+}
+
+
+
+
+h1, h2, h3 {
+  color: #1F2937;
+  font-weight: 700;
+  letter-spacing: .3px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+
+
+
+p {
+  color: #374151;       
+  font-size: 1rem;
+}
+
+
+.about-box,
+.service-card,
+.highlight-card,
+.why-card,
+.card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 18px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 8px 16px rgba(0,0,0,.05);
+  transition: all .25s ease;
+}
+
+.about-box {
+  max-width: 900px;
+  margin: 0 auto 30px auto;  
+}
+
+.about-para {
+  margin-bottom: 12px;
+}
+
+/* Hover */
+.highlight-card:hover,
+.service-card:hover,
+.card:hover,
+.why-card:hover {
+  box-shadow: 0 16px 30px rgba(0,0,0,.1);
+  transform: translateY(-2px);
+}
+
+
+
+
+button,
+.cta-btn-dark,
+.link-btn,
+.cta-btn {
+  background: #2563EB;  
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button,
+.cta-btn-dark,
+.link-btn,
+.cta-btn {
+  color: white;           
+  background: #3B82F6;    
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+button:hover,
+.cta-btn-dark:hover,
+.link-btn:hover,
+.cta-btn:hover {
+  background: #1D4ED8;  
+  color: white;          /* Text stays white */
+}
+
+
+
+
+
+.navbar,
+.header {
+  background: white !important;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.navbar a,
+.nav-link {
+  color: #1F2937 !important;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.nav-link:hover {
+  color: #2563EB !important;
+}
+
+
+
+
+.carousel-caption h2 {
+  color: white;
+  font-weight: 800;
+  text-shadow: 0 4px 12px rgba(0,0,0,.5);
+}
+
+.carousel-caption p {
+  color: #E5E7EB;
+  font-size: 1.05rem;
+  text-shadow: 0 4px 12px rgba(0,0,0,.45);
+}
+
+
+
+
+footer {
+  background: #111827;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #93C5FD;
+}
