@@ -65,12 +65,12 @@ Then open in your browser:
 
 http://localhost:3000
 
-##Deployment
+## Deployment
 
 The project is deployed on Vercel.
 Live website: https://taniya-enterprise.vercel.app
 
-##GitHub Repository
+## GitHub Repository
 
 The project code is available on GitHub:
 https://github.com/Taniya205/Arm-Assignment
